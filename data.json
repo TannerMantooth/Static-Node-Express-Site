@@ -16,7 +16,7 @@
       ],
       "live_link": "https://tannermantooth.github.io/techdegree-project-1/",
       "github_link": "https://github.com/TannerMantooth/techdegree-project-1.git",
-      "image_urls": ["images/quotelanding.png", "iamges/quoteslandscape.png"]
+      "image_urls": ["/static/images/quote1.png", "/static/images/quote2.png"]
     },
     {
       "id": 1,
@@ -32,7 +32,10 @@
       ],
       "live_link": "https://tannermantooth.github.io/Data-Pagination-and-Filtering/",
       "github_link": "https://github.com/TannerMantooth/Data-Pagination-and-Filtering.git",
-      "image_urls": ["images/studentlanding.png", "images/studentlandscape.png"]
+      "image_urls": [
+        "/static/images/studentlanding.png",
+        "/static/images/studentlandscape.png"
+      ]
     },
     {
       "id": 2,
@@ -49,9 +52,9 @@
       "live_link": "https://tannermantooth.github.io/Interactive-Form/",
       "github_link": "https://github.com/TannerMantooth/Interactive-Form.git",
       "image_urls": [
-        "images/intformlanding.png",
-        "images/intformoptions.png",
-        "images/intformpayment.png"
+        "/static/images/intformlanding.png",
+        "/static/images/intformoptions.png",
+        "/static/images/intformpayment.png"
       ]
     },
     {
@@ -72,9 +75,9 @@
       "live_link": "https://tannermantooth.github.io/OOP-Game-Show-App/",
       "github_link": "https://github.com/TannerMantooth/OOP-Game-Show-App.git",
       "image_urls": [
-        "images/gameshowlanding.png",
-        "images/gameshowscape.png",
-        "images/gameshowaction.png"
+        "/static/images/gameshowlanding.png",
+        "/static/images/gameshowscape.png",
+        "/static/images/gameshowaction.png"
       ]
     },
     {
@@ -98,9 +101,9 @@
       "live_link": "https://tannermantooth.github.io/Employee-Directory-API-Requests/",
       "github_link": "https://github.com/TannerMantooth/Employee-Directory-API-Requests.git",
       "image_urls": [
-        "images/empdirectlanding.png",
-        "images/empdirectlandscape.png",
-        "images/empdirectcard.png"
+        "/static/images/empdirectlanding.png",
+        "/static/images/empdirectlandscape.png",
+        "/static/images/empdirectcard.png"
       ]
     }
   ]

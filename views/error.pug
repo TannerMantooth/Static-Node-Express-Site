@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1= 'Server Error'
+    h2= `Error status code: ${err.status} - Server Error`
+    p= `${err.message}`
+
+    div
+        nav.nav
+            a(href='/')
+                span &larr;
+                | Return

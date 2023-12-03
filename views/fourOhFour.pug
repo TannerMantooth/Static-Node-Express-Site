@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    div.error-message
+        h1= `${err.status} - Page Not Found`
+        h2= `${err.message}`
+        pre= `${err.stack}`
+
+    div
+        nav.nav
+            a.back-link(href='/')
+                span &larr;
+                |   Return

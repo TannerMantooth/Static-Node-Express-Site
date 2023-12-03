@@ -1,0 +1,107 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "This app displays a random quote whenver the button on the page is clicked. There is also a timer running on the page to change the quote at a set interval.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Loops",
+        "Arrays",
+        "Conditionals",
+        "Object Literals",
+        "Event Listeners"
+      ],
+      "live_link": "https://tannermantooth.github.io/techdegree-project-1/",
+      "github_link": "https://github.com/TannerMantooth/techdegree-project-1.git",
+      "image_urls": ["images/quotelanding.png", "iamges/quoteslandscape.png"]
+    },
+    {
+      "id": 1,
+      "project_name": "Data Pagination and Filtering",
+      "description": "This product focuses on using pagination to create pages of nine students that have pagination buttons at the bottom to navigate in between each numbered page. ",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Pagination",
+        "Filtering",
+        "Event Listeners"
+      ],
+      "live_link": "https://tannermantooth.github.io/Data-Pagination-and-Filtering/",
+      "github_link": "https://github.com/TannerMantooth/Data-Pagination-and-Filtering.git",
+      "image_urls": ["images/studentlanding.png", "images/studentlandscape.png"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "A interactive form designed to be used for conference registration. This form contains selectable options for course registration, a section for choosing your payment method, and hides elements depending on the selections made.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "DOM",
+        "JavaScript",
+        "Event Listeners",
+        "Conditionals"
+      ],
+      "live_link": "https://tannermantooth.github.io/Interactive-Form/",
+      "github_link": "https://github.com/TannerMantooth/Interactive-Form.git",
+      "image_urls": [
+        "images/intformlanding.png",
+        "images/intformoptions.png",
+        "images/intformpayment.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "A word guessing game based around Object-Oriented Programming. The game selects a random phrase to show on screen that will be used for guessing. The player clicks letters from the selectable boxes at the bottom of the page. There is a set number of lives that will go down with each wrong guess. The game will end when the player guesses the correct word or has run out of lives.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "DOM",
+        "JavaScript",
+        "Event Listeners",
+        "Conditionals",
+        "Object-Oriented Programming",
+        "Callback Functions",
+        "Array Iteration"
+      ],
+      "live_link": "https://tannermantooth.github.io/OOP-Game-Show-App/",
+      "github_link": "https://github.com/TannerMantooth/OOP-Game-Show-App.git",
+      "image_urls": [
+        "images/gameshowlanding.png",
+        "images/gameshowscape.png",
+        "images/gameshowaction.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "An app that creates a directory for employees at a company by interacting with an API. The app retrieves a JSON object from the API and parses the data into the employee cards. These are listed in a grid on the page with a thumbnail image. The cards are clickable and open a modal window so that a person can see more detailed employee contact information.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "DOM",
+        "JavaScript",
+        "Event Listeners",
+        "Conditionals",
+        "Object-Oriented Programming",
+        "Callback Functions",
+        "Array Iteration",
+        "JSON",
+        "API",
+        "Modal Windows"
+      ],
+      "live_link": "https://tannermantooth.github.io/Employee-Directory-API-Requests/",
+      "github_link": "https://github.com/TannerMantooth/Employee-Directory-API-Requests.git",
+      "image_urls": [
+        "images/empdirectlanding.png",
+        "images/empdirectlandscape.png",
+        "images/empdirectcard.png"
+      ]
+    }
+  ]
+}

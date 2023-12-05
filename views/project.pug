@@ -11,9 +11,8 @@ block content
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
 
-        h1= project.project_name
-
-        p= project.description
+        h1 #{project.project_name}
+        p #{project.description}
 
       .project-tech-links-box.box
         h6 Technologies
@@ -26,9 +25,8 @@ block content
         a.btn-link(href=`${project.github_link}`, target="_blank") GitHub Repo
 
     .project-img-box.box
-
       each image in project.image_urls
-        img.project-img(src= image, alt=`${project.project_name}`)
+        img.project-img(src=image, alt=`Screen shot of ${project.project_name}`)
 
     nav.nav
       a(href='/')

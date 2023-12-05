@@ -1,9 +1,10 @@
-extends layout
+extends layout.pug
 
 block content
-    h1= 'Server Error'
-    h2= `Error status code: ${err.status} - Server Error`
-    p= `${err.message}`
+
+    h1 #{err.status}
+    h2= `${err.message}`
+    pre= `${err.stack}`
 
     div
         nav.nav

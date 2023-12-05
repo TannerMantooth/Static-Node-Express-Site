@@ -16,7 +16,11 @@
       ],
       "live_link": "https://tannermantooth.github.io/techdegree-project-1/",
       "github_link": "https://github.com/TannerMantooth/techdegree-project-1.git",
-      "image_urls": ["/static/images/quote1.png", "/static/images/quote2.png"]
+      "image_urls": [
+        "/static/images/quotes-main.png",
+        "/static/images/quotes-second.png",
+        "/static/images/quotes-third.png"
+      ]
     },
     {
       "id": 1,
@@ -33,8 +37,9 @@
       "live_link": "https://tannermantooth.github.io/Data-Pagination-and-Filtering/",
       "github_link": "https://github.com/TannerMantooth/Data-Pagination-and-Filtering.git",
       "image_urls": [
-        "/static/images/studentlanding.png",
-        "/static/images/studentlandscape.png"
+        "/static/images/pagination-main.png",
+        "/static/images/pagination-second.png",
+        "/static/images/pagination-third.png"
       ]
     },
     {
@@ -52,9 +57,9 @@
       "live_link": "https://tannermantooth.github.io/Interactive-Form/",
       "github_link": "https://github.com/TannerMantooth/Interactive-Form.git",
       "image_urls": [
-        "/static/images/intformlanding.png",
-        "/static/images/intformoptions.png",
-        "/static/images/intformpayment.png"
+        "/static/images/form-main.png",
+        "/static/images/form-second.png",
+        "/static/images/form-third.png"
       ]
     },
     {
@@ -75,9 +80,9 @@
       "live_link": "https://tannermantooth.github.io/OOP-Game-Show-App/",
       "github_link": "https://github.com/TannerMantooth/OOP-Game-Show-App.git",
       "image_urls": [
-        "/static/images/gameshowlanding.png",
-        "/static/images/gameshowscape.png",
-        "/static/images/gameshowaction.png"
+        "/static/images/gameshow-main.png",
+        "/static/images/gameshow-second.png",
+        "/static/images/gameshow-third.png"
       ]
     },
     {
@@ -101,9 +106,9 @@
       "live_link": "https://tannermantooth.github.io/Employee-Directory-API-Requests/",
       "github_link": "https://github.com/TannerMantooth/Employee-Directory-API-Requests.git",
       "image_urls": [
-        "/static/images/empdirectlanding.png",
-        "/static/images/empdirectlandscape.png",
-        "/static/images/empdirectcard.png"
+        "/static/images/directory-main.png",
+        "/static/images/directory-second.png",
+        "/static/images/directory-third.png"
       ]
     }
   ]

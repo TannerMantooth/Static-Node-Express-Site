@@ -18,9 +18,8 @@ app.get("/about", (req, res) => {
 });
 
 //Dyanmic Project route that renders the project.pug template
-app.get("/projects/:id", (req, res) => {
-  const projectId = req.params.id;
-  const project = projects.find(({ id }) => id === +projectId);
+app.get("/projects/:id", (req, res, next) => {
+  const project = projects.find(({ id }) => id === +req.params.id);
   if (project) {
     res.render("project", { project });
   } else {
@@ -39,11 +38,13 @@ app.use((req, res, next) => {
 //Global Error Handler
 app.use((err, req, res, next) => {
   if (err.status === 404) {
-    res.status(404).render("page-not-found", { err });
+    res.render("page-not-found", { err });
   } else {
+    const err = new Error();
     err.message =
       err.message ||
       "Oh no! It looks like something went wrong with the server.";
+    console.log(err.message);
     res.status(err.status || 500).render("error", { err });
   }
 });
